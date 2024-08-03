@@ -1,89 +1,67 @@
-const themeToggle = document.getElementById('theme-toggle');
-const body = document.body;
-// Navbar indicator animation
-const navItems = document.querySelectorAll('.navbar a');
-const indicator = document.querySelector('.navbar-indicator');
+document.addEventListener('DOMContentLoaded', () => {
+    // Elements
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const navItems = document.querySelectorAll('.navbar a');
+    const indicator = document.querySelector('.navbar-indicator');
 
-function setIndicator(el) {
-    indicator.style.width = `${el.offsetWidth}px`;
-    indicator.style.left = `${el.offsetLeft}px`;
-}
-
-function moveIndicator(el) {
-    setIndicator(el);
-}
-
-function resetIndicator() {
-    const activeItem = document.querySelector('.navbar a.active') || navItems[0];
-    setIndicator(activeItem);
-}
-
-navItems.forEach(item => {
-    item.addEventListener('mouseover', () => moveIndicator(item));
-    item.addEventListener('click', (e) => {
-        navItems.forEach(item => item.classList.remove('active'));
-        e.target.classList.add('active');
-    });
-});
-
-document.querySelector('.navbar').addEventListener('mouseleave', resetIndicator);
-
-// Set initial position of indicator
-window.addEventListener('load', () => {
-    resetIndicator();
-});
-
-// Update indicator position on window resize
-window.addEventListener('resize', resetIndicator);
-
-function setTheme(isDark) {
-    if (isDark) {
-        body.setAttribute('data-theme', 'dark');
-        themeToggle.textContent = 'Light Mode';
-        localStorage.setItem('theme', 'dark');
-    } else {
-        body.setAttribute('data-theme', 'light');
-        themeToggle.textContent = 'Dark Mode';
-        localStorage.setItem('theme', 'light');
+    // Set the navbar indicator based on the active element
+    function setIndicator(el) {
+        indicator.style.width = `${el.offsetWidth}px`;
+        indicator.style.left = `${el.offsetLeft}px`;
     }
-}
 
-function toggleTheme() {
-    const isDark = body.getAttribute('data-theme') === 'dark';
-    setTheme(!isDark);
-}
+    // Move indicator to the element being hovered
+    function moveIndicator(el) {
+        setIndicator(el);
+    }
 
-// Set initial theme
-const savedTheme = localStorage.getItem('theme');
-setTheme(savedTheme === 'dark');
+    // Reset indicator to the currently active nav item or the first item
+    function resetIndicator() {
+        const activeItem = document.querySelector('.navbar a.active') || navItems[0];
+        setIndicator(activeItem);
+    }
 
-// Add event listener to toggle
-themeToggle.addEventListener('click', toggleTheme);
+    // Event listeners for navbar interactions
+    navItems.forEach(item => {
+        item.addEventListener('mouseover', () => moveIndicator(item));
+        item.addEventListener('click', (e) => {
+            navItems.forEach(item => item.classList.remove('active'));
+            e.target.classList.add('active');
+            resetIndicator();
+        });
+    });
 
-// Project carousel logic (unchanged)
-const projectCarousel = document.querySelector('.project-carousel');
-let isDown = false;
-let startX;
-let scrollLeft;
+    document.querySelector('.navbar').addEventListener('mouseleave', resetIndicator);
+    window.addEventListener('load', resetIndicator);
+    window.addEventListener('resize', resetIndicator);
 
-projectCarousel.addEventListener('mousedown', (e) => {
-    isDown = true;
-    startX = e.pageX - projectCarousel.offsetLeft;
-    scrollLeft = projectCarousel.scrollLeft;
-});
+    // Theme toggle functionality
+    function setTheme(isDark) {
+        body.setAttribute('data-theme', isDark ? 'dark' : 'light');
+        themeToggle.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    }
 
-projectCarousel.addEventListener('mouseleave', () => {
-    isDown = false;
-});
+    function toggleTheme() {
+        const isDark = body.getAttribute('data-theme') === 'dark';
+        setTheme(!isDark);
+    }
 
-projectCarousel.addEventListener('mouseup', () => {
-    isDown = false;
-});
+    themeToggle.addEventListener('click', toggleTheme);
 
-projectCarousel.addEventListener('mousemove', (e) => {
-    if (!isDown) return;
-    e.preventDefault();
-    const x = e.pageX - projectCarousel.offsetLeft;
-    const walk = (x - startX) * 2;
-    projectCarousel.scrollLeft = scrollLeft - walk;
+    // Initialize theme based on local storage or default
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    setTheme(savedTheme === 'dark');
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetElement = document.querySelector(this.getAttribute('href'));
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
 });
