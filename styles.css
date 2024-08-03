@@ -1,26 +1,27 @@
 :root {
-    --bg-color: rgba(255, 255, 255, 0.8);
-    --text-color: #333333;
+    --bg-color: rgba(255, 255, 255, 0.9);
+    --text-color: #333;
     --accent-color: #4CAF50;
     --secondary-bg: rgba(245, 245, 245, 0.9);
-    --leaf-color: #66bb6a;
+    --link-color: #0066cc;
 }
 
 [data-theme="dark"] {
-    --bg-color: rgba(26, 26, 26, 0.8);
+    --bg-color: rgba(18, 18, 18, 0.95);
     --text-color: #f0f0f0;
     --accent-color: #66bb6a;
-    --secondary-bg: rgba(42, 42, 42, 0.9);
-    --leaf-color: #4CAF50;
+    --secondary-bg: rgba(34, 34, 34, 0.9);
+    --link-color: #80b280;
 }
 
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: var(--text-color);
     margin: 0;
     padding: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 .background-overlay {
@@ -43,18 +44,26 @@ main {
 }
 
 header {
-    background-color: var(--accent-color);
-    padding: 0;
+    background-color: transparent; /* Make the background transparent for a cleaner look */
+    padding: 1rem 2rem; /* Padding for breathing space */
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Aligns the logo and nav items on opposite ends */
+    align-items: center;
 }
 
 .navbar {
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: var(--accent-color); /* Using the accent color for logo */
+    font-weight: bold;
 }
 
 .navbar ul {
@@ -62,90 +71,69 @@ header {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
 }
 
 .navbar li {
-    flex: 1;
-    text-align: center;
+    margin: 0 20px; /* Spacing between nav items */
 }
 
 .navbar a {
-    color: var(--bg-color);
+    color: var(--text-color);
     text-decoration: none;
-    font-weight: bold;
-    padding: 1rem 0;
-    display: block;
+    padding: 0.5rem 1rem;
     transition: color 0.3s ease;
-    position: relative;
-    z-index: 1;
 }
 
-.navbar a:hover {
-    color: var(--secondary-bg);
+.navbar a:hover, .navbar a.active {
+    color: var(--accent-color); /* Highlight color on hover/active */
 }
 
-.navbar i {
-    margin-right: 0.5rem;
-    font-size: 1.2em;
+#theme-toggle {
+    background: none;
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 0.5rem 1rem;
+    font-size: 0.875em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.navbar-indicator {
-    position: absolute;
-    bottom: 0;
-    height: 4px;
-    background-color: var(--secondary-bg);
-    transition: 0.3s ease-in-out;
+#theme-toggle:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
 }
+
 
 section {
     margin-bottom: 4rem;
-    position: relative;
-    overflow: hidden;
 }
 
 .section-content {
     background-color: var(--secondary-bg);
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 50px 20px; /* Increased padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, color 0.3s ease;
     max-width: 800px;
     margin: 0 auto;
-}
-
-.section-alt .section-content {
-    margin-left: auto;
-    margin-right: 0;
-}
-
-h1, h2, h3 {
-    color: var(--accent-color);
-    margin-top: 0;
-}
-
-h2::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 3px;
-    background-color: var(--accent-color);
-    margin-top: 10px;
+    text-align: center; /* Centered text */
 }
 
 .social-links a {
     margin-right: 1rem;
     color: var(--accent-color);
-    text-decoration: none;
-    transition: color 0.3s ease;
+    font-size: 1.5em; /* Larger icons */
+    padding: 10px; /* Larger click area */
+    transition: color 0.5s ease; /* Smoother transition */
 }
 
 .social-links a:hover {
-    color: var(--leaf-color);
+    color: var(--leaf-color); /* Interaction color */
 }
 
 ul {
     padding-left: 1.5rem;
-    list-style-type: none;
 }
 
 ul li::before {
@@ -238,12 +226,6 @@ footer {
 
     .navbar-indicator {
         display: none;
-    }
-
-    .section-content,
-    .section-alt .section-content {
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .project-carousel {
