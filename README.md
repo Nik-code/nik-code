@@ -6,8 +6,6 @@
 
 I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world of Machine Learning and Artificial Intelligence. Whether it's diving into the depths of data or crafting clever solutions, I'm always up for a challenge! When I'm not coding, you might find me snapping photos of nature, tackling a thrilling video game, or dreaming up my next adventure.
 
-![Nature Photography](https://via.placeholder.com/400x200.png?text=I+❤️+Photography)
-
 ### 🎓 Education & Learning
 
 - **B.Tech in Computer Engineering** at Delhi Technological University
@@ -35,7 +33,7 @@ I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world
 - Tomb Raider Series
 - Pokémon Adventures
 
-![Gaming Adventures](https://via.placeholder.com/400x200.png?text=Game+On!)
+![Gaming Adventures](https://github.com/Nik-code/nik-code/blob/main/gaming-banner.png?raw=true)
 
 ## 💼 Career Aspirations
 
