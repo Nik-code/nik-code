@@ -24,7 +24,7 @@ I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world
 - Designing innovative AI models for real-world applications
 - Exploring the open-source universe and contributing to the community
 
-![Coding Fun](https://via.placeholder.com/400x200.png?text=Code+with+Joy)
+![Coding Fun](https://github.com/Nik-code/nik-code/blob/main/coding-banner.png?raw=true)
 
 ## 🎮 Games I Love
 
