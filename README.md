@@ -1,6 +1,6 @@
 # 👋 Hey there! Welcome to Priyansh's GitHub!
 
-![Welcome Banner](https://raw.githubusercontent.com/Nik-code/nik-code/main/github-banner.png)
+![Welcome Banner](https://github.com/Nik-code/nik-code/blob/main/github-banner.png?raw=true)
 
 ---
 
