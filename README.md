@@ -1,6 +1,6 @@
 # 👋 Hey there! Welcome to Priyansh's GitHub!
 
-![Welcome Banner](https://via.placeholder.com/800x200.png?text=Welcome+to+My+GitHub+World!)
+![Welcome Banner](https://raw.githubusercontent.com/Nik-code/nik-code/main/github-banner.png)
 
 ## 🌟 About Me
 
