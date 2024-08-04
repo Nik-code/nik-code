@@ -51,8 +51,8 @@ I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world
 
 ## 🔗 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/priyansh-nik)
-- [Portfolio](https://priyanshnik.com)
-- [Twitter](https://twitter.com/priyanshnik)
+- [LinkedIn](https://www.linkedin.com/in/priyansh-singh-a3b7531aa/)
+- [Portfolio](https://priyanshnik.com) (Under Construction)
+- [Twitter](https://x.com/PriyanshKSingh)
 
 Feel free to explore my repositories, drop a star if you like, and let's connect to make the tech world a better place! 🌟
