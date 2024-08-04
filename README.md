@@ -6,15 +6,16 @@
 
 ## 🌟 About Me
 
-I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world of Machine Learning and Artificial Intelligence. Whether it's diving into the depths of data or crafting clever solutions, I'm always up for a challenge! When I'm not coding, you might find me snapping photos of nature, tackling a thrilling video game, or dreaming up my next adventure.
+I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world of Machine Learning and Artificial Intelligence. Whether it's diving into the depths of data or crafting clever solutions, I'm always up for a challenge! 
+When I'm not coding, you might find me snapping photos of nature, tackling a thrilling video game, or dreaming up my next adventure.
 
 ---
 
 ### 🎓 Education & Learning
 
-- **B.Tech in Computer Engineering** at Delhi Technological University
-- Currently exploring the magical realms of AI, ML, NLP, and Computer Vision
-- Forever a student at heart with a keen interest in learning new technologies
+- Pursuing a **B.Tech in Computer Science and Engineering**
+- Currently exploring the exciting realms of AI, ML, NLP, and Computer Vision
+- A lifelong learner with an insatiable curiosity for new technologies
 
 ---
 
@@ -36,6 +37,14 @@ I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world
 
 ---
 
+## 💼 Career Aspirations
+
+- Aim to become a Machine Learning Engineer
+- Passionate about AI advancements and their real-world impact
+- Excited to work remotely in a dynamic, innovative environment
+
+---
+
 ## 🎮 Games I Love
 
 - Ghost of Tsushima
@@ -44,14 +53,6 @@ I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world
 - Pokémon Adventures
 
 ![Gaming Adventures](https://github.com/Nik-code/nik-code/blob/main/gaming-banner.png?raw=true)
-
----
-
-## 💼 Career Aspirations
-
-- Aim to become a Machine Learning Engineer
-- Passionate about AI advancements and their real-world impact
-- Excited to work remotely in a dynamic, innovative environment
 
 ---
 
