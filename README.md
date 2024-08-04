@@ -47,7 +47,7 @@ I'm Priyansh Kumar Singh, a passionate tech enthusiast and explorer in the world
 - Learning Japanese 🇯🇵
 - Trekking through tidepools and jungles 🌿
 
-![Nature Adventure](https://via.placeholder.com/400x200.png?text=Explore+Nature)
+![Nature Adventure](https://github.com/Nik-code/nik-code/blob/main/nature-cover.png?raw=true)
 
 ## 🔗 Connect with Me
 
