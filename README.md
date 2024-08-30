@@ -78,7 +78,7 @@ When I'm not coding, you might find me snapping photos of nature, tackling a thr
 ## 🔗 Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/priyansh-singh-a3b7531aa/)
-- [Portfolio](https://priyanshnik.com) (Under Construction)
+- [Portfolio](https://priyanshnik.com)
 - [Twitter](https://x.com/PriyanshKSingh)
 
 ---
