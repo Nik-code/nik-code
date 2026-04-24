@@ -1,146 +1,54 @@
-<div align="center">
+# Nik
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07242E,50:115264,100:1F869A&height=200&section=header&text=Nik&fontSize=70&fontColor=F2EBDD&fontAlignY=35&desc=systems%20thinker%20·%20AI%20builder%20·%20航空%20×%20知能%20×%20設計&descSize=14&descColor=B0A695&descAlignY=55&animation=fadeIn" width="100%"/>
+Priyansh Kumar Singh. Systems thinker, AI builder, aviation × intelligence × design.
 
-<br/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=16&duration=3000&pause=1200&color=1F869A&center=true&vCenter=true&random=false&width=420&lines=build+%E2%86%92+ship+%E2%86%92+iterate+%E2%86%92+repeat;calm+software+for+complex+problems;航空+×+AI+×+コード" alt="Typing SVG" />
-
-</div>
-
-<br/>
-
-```
-  ╭──────────────────────────────────────────────────────╮
-  │                                                      │
-  │   CSE + ML @ DTU '25 · IEEE published researcher     │
-  │   AI products @ Nemukai · Airline ops by day         │
-  │   Amazon ML Challenge — AIR 15 / 75,000+             │
-  │                                                      │
-  ╰──────────────────────────────────────────────────────╯
-```
+CSE + ML from DTU, class of 2025. IEEE-published researcher. Currently shipping [Koe](https://koe.nemukai.com), commercializing Skytrail, and building Kairos and Cerno under [Nemukai](https://nemukai.com). By day, optimizing crew networks at IndiGo Airlines. Amazon ML Challenge — AIR 15 out of 75,000+.
 
 I like my systems resilient, my interfaces minimal, and my deploys at 3am.
 
-Currently shipping [**Koe**](https://koe.nemukai.com), commercializing **Skytrail**, and building **Kairos** and **Cerno** under [**Nemukai**](https://nemukai.com). By day, optimizing crew networks at IndiGo.
+---
+
+## Building
+
+|  |  |
+| :--- | :--- |
+| **[Koe](https://koe.nemukai.com)** — live | Voice-first Indic language AI. Transcription, translation, summarization. Sarvam Saaras V3 · OpenRouter · ElevenLabs TTS. Lotus-inspired dark UI. |
+| **Kairos** — building | F1-grade karting telemetry on an Apple Watch Ultra. L1+L5 GPS and CoreMotion on the wrist, racing-line replay and braking zones on iPhone. SwiftUI · WatchKit. |
+| **Skytrail** — commercializing | Interactive 3D globe of personal flight history. Airline-colored great-circle arcs on a wireframe earth, thickness by route frequency. Next.js · Three.js. |
+| **Cerno** — building | Calm desktop app that turns messy spreadsheets into conversational data. Drop Excel in, ask questions in plain language. Pywebview · FastAPI · Polars. |
+
+All four ship under [Nemukai](https://nemukai.com), a solo AI product studio.
 
 ---
 
-### `> building`
+## Research
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[Koe](https://koe.nemukai.com)** `live`
-AI transcription & voice companion for Indic languages. Sarvam Saaras V3 + OpenRouter + ElevenLabs TTS. Lotus-inspired dark UI.
-
-</td>
-<td width="50%" valign="top">
-
-**Kairos** `building`
-F1-grade karting telemetry on an Apple Watch Ultra. L1+L5 GPS + CoreMotion on the wrist, racing line replay and braking zones on iPhone. SwiftUI · WatchKit · Swift Charts.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Skytrail** `commercializing`
-Interactive 3D globe of personal flight history — airline-colored great-circle arcs, thickness by route frequency, on a wireframe earth. Packaging the engine into an embeddable product. Next.js · react-globe.gl · Three.js.
-
-</td>
-<td width="50%" valign="top">
-
-**Cerno** `building`
-A calm desktop app that turns messy spreadsheets into conversational data. Drop Excel in, ask questions in plain language, get tables + charts + the code it ran. Pywebview · FastAPI · Polars.
-
-</td>
-</tr>
-</table>
-
-All products ship under [**Nemukai**](https://nemukai.com) — a solo AI product studio building calm, useful software.
+**Graph-MoE: A Graph-Based LLM Framework for Scalable and Efficient Code Completion.** Published at the 6th International Conference for Emerging Technology (INCET), 2025. [IEEE Xplore](https://ieeexplore.ieee.org/document/11139956).
 
 ---
 
-### `> research`
+## Toolkit
 
-```bibtex
-@inproceedings{singh2025graphmoe,
-  title     = {Graph-MoE: A Graph-Based LLM Framework for Scalable
-               and Efficient Code Completion},
-  author    = {Singh, Priyansh Kumar et al.},
-  booktitle = {6th International Conference for Emerging Technology (INCET)},
-  year      = {2025},
-  publisher = {IEEE Xplore Digital Library}
-}
-```
+**Languages.** Python · TypeScript · Swift · SQL · R · Bash
+**AI / ML.** PyTorch · TensorFlow · LangChain · LlamaIndex · Polars
+**Web.** Next.js · React · Tailwind · Three.js · FastAPI · Supabase
+**Native.** SwiftUI · WatchKit · Swift Charts · CoreLocation · CoreMotion
+**Cloud & data.** GCP · AWS · Snowflake · MongoDB · vector databases · Power BI
+**Aviation.** Jeppesen (JCP/JCR) · RAVE · SABRE
+**Infrastructure.** Git · Docker · Vercel · Cloud Run · Tailscale · self-hosted VPS
 
 ---
 
-### `> toolkit`
+## Trail
 
-```
-Languages      Python · TypeScript · Swift · SQL · R · Bash
-AI / ML        LLMs · NLP · PyTorch · TensorFlow · LangChain · LlamaIndex · Polars
-Web            Next.js · React · Tailwind · Three.js · FastAPI · Supabase
-Native         SwiftUI · WatchKit · Swift Charts · CoreLocation · CoreMotion
-Cloud & Data   GCP · AWS · Snowflake · MongoDB · Vector DBs · Power BI
-Aviation       Jeppesen (JCP/JCR) · RAVE · SABRE
-Infra          Git · Docker · Vercel · Cloud Run · Tailscale · VPS
-```
+**2025 — now.** Network Planning & Crew Resources, IndiGo Airlines
+**2024.** Data engineering — health data pipelines and CMS
+**2023 — 2024.** ML engineering — GPT-4 legal chatbot over 400K+ documents
+**2023.** Software development — customs trade chatbot serving 5M+ daily queries
+**2023.** AI development — healthcare chatbot with geolocation
 
 ---
 
-### `> trail`
+## Elsewhere
 
-```
-  2025–now  ┃  ✈️  Network Planning & Crew Resources — IndiGo Airlines
-  2024      ┃  🏥  Data Engineering — Health data pipelines & CMS
-  2023–24   ┃  ⚖️  ML Engineering — GPT-4 legal chatbot (400K+ docs)
-  2023      ┃  🛃  Software Dev — Customs trade chatbot (5M+ daily)
-  2023      ┃  🤖  AI Dev — Healthcare chatbot with geolocation
-```
-
----
-
-<div align="center">
-
-<a href="https://github.com/Nik-code">
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Nik-code&show_icons=true&hide_border=true&bg_color=141210&title_color=1F869A&icon_color=D17B2E&text_color=B0A695&ring_color=1F869A&count_private=true" alt="GitHub Stats"/>
-</a>
-<a href="https://github.com/Nik-code">
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Nik-code&layout=compact&hide_border=true&bg_color=141210&title_color=1F869A&text_color=B0A695" alt="Top Langs"/>
-</a>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=Nik-code&hide_border=true&background=141210&stroke=262220&ring=1F869A&fire=D17B2E&currStreakLabel=1F869A&sideLabels=B0A695&currStreakNum=F2EBDD&sideNums=B0A695&dates=6D6455" alt="Streak"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nik-code&hide_border=true&bg_color=141210&color=1F869A&line=1F869A&point=D17B2E&area=true&area_color=07242E" alt="Activity Graph" width="95%"/>
-
-</div>
-
----
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/priyanshnik.com-141210?style=for-the-badge&logo=safari&logoColor=1F869A)](https://priyanshnik.com)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-141210?style=for-the-badge&logo=linkedin&logoColor=1F869A)](https://www.linkedin.com/in/priyanshnik/)&nbsp;
-[![X](https://img.shields.io/badge/X-141210?style=for-the-badge&logo=x&logoColor=1F869A)](https://x.com/priyanshnik)&nbsp;
-[![Nemukai](https://img.shields.io/badge/Nemukai-141210?style=for-the-badge&logoColor=1F869A)](https://nemukai.com)&nbsp;
-[![IEEE](https://img.shields.io/badge/IEEE-141210?style=for-the-badge&logo=ieee&logoColor=1F869A)](https://ieeexplore.ieee.org/document/11139956)
-
-<br/><br/>
-
-```
-"The best code is the one that ships." — me, probably at 3am
-```
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07242E,50:115264,100:1F869A&height=100&section=footer" width="100%"/>
-
-</div>
+[priyanshnik.com](https://priyanshnik.com) · [LinkedIn](https://www.linkedin.com/in/priyanshnik/) · [X](https://x.com/priyanshnik) · [Nemukai](https://nemukai.com) · [IEEE](https://ieeexplore.ieee.org/document/11139956)
