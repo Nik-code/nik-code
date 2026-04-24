@@ -22,7 +22,7 @@
 
 I like my systems resilient, my interfaces minimal, and my deploys at 3am.
 
-Currently shipping [**Koe**](https://koe.nemukai.com) — an AI voice companion for Indic languages — and optimizing airline networks at IndiGo.
+Currently shipping [**Koe**](https://koe.nemukai.com), commercializing **Skytrail**, and building **Kairos** and **Cerno** under [**Nemukai**](https://nemukai.com). By day, optimizing crew networks at IndiGo.
 
 ---
 
@@ -38,22 +38,22 @@ AI transcription & voice companion for Indic languages. Sarvam Saaras V3 + OpenR
 </td>
 <td width="50%" valign="top">
 
-**Ami** `next`
-Visual agent orchestration — scope in progress. Absorbed the heritage education angle from an earlier concept.
+**Kairos** `building`
+F1-grade karting telemetry on an Apple Watch Ultra. L1+L5 GPS + CoreMotion on the wrist, racing line replay and braking zones on iPhone. SwiftUI · WatchKit · Swift Charts.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**HoloHut** `planned`
-Pokémon TCG price tracker with community marketplace and real-time market data.
+**Skytrail** `commercializing`
+Interactive 3D globe of personal flight history — airline-colored great-circle arcs, thickness by route frequency, on a wireframe earth. Packaging the engine into an embeddable product. Next.js · react-globe.gl · Three.js.
 
 </td>
 <td width="50%" valign="top">
 
-**Crew Optimization** `work`
-SSIM analyzer, BPTD metrics, pairing efficiency systems, and dynamic rotation modeling for airline ops.
+**Cerno** `building`
+A calm desktop app that turns messy spreadsheets into conversational data. Drop Excel in, ask questions in plain language, get tables + charts + the code it ran. Pywebview · FastAPI · Polars.
 
 </td>
 </tr>
@@ -81,11 +81,13 @@ All products ship under [**Nemukai**](https://nemukai.com) — a solo AI product
 ### `> toolkit`
 
 ```
-Languages      Python · JavaScript · SQL · R · Bash
-AI / ML        LLMs · NLP · TensorFlow · PyTorch · LangChain · LlamaIndex
+Languages      Python · TypeScript · Swift · SQL · R · Bash
+AI / ML        LLMs · NLP · PyTorch · TensorFlow · LangChain · LlamaIndex · Polars
+Web            Next.js · React · Tailwind · Three.js · FastAPI · Supabase
+Native         SwiftUI · WatchKit · Swift Charts · CoreLocation · CoreMotion
 Cloud & Data   GCP · AWS · Snowflake · MongoDB · Vector DBs · Power BI
 Aviation       Jeppesen (JCP/JCR) · RAVE · SABRE
-Infra          Git · Docker · FastAPI · Vercel · Cloud Run
+Infra          Git · Docker · Vercel · Cloud Run · Tailscale · VPS
 ```
 
 ---
