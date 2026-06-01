@@ -18,7 +18,7 @@
 
 <br/>
 
-I build small AI products under [**Nemukai**](https://nemukai.com) — a solo studio for calm, character-rich tools. By day, I build planning, optimization, and analytics systems at IndiGo Airlines.
+I build small AI products under [**Nemukai**](https://nemukai.com), a solo studio for calm, character-rich tools. By day, I build planning, optimization, and analytics systems at IndiGo Airlines.
 
 CSE + ML, DTU '25 · IEEE-published (INCET 2025) · Amazon ML Challenge, AIR 15 / 75K+.
 
@@ -31,7 +31,7 @@ CSE + ML, DTU '25 · IEEE-published (INCET 2025) · Amazon ML Challenge, AIR 15 
     <td width="50%" valign="top">
       <h3><a href="https://koe.nemukai.com">Koe</a></h3>
       <p><img src="https://img.shields.io/badge/live-1F869A?style=flat-square&labelColor=141210" alt="live"/></p>
-      <p>Voice-first Indic-language AI — transcription, translation, and summarization across <strong>22 Indian languages</strong>. Sarvam Saaras v3 · OpenRouter · Sarvam Bulbul TTS. Lotus-inspired dark UI.</p>
+      <p>Voice-first Indic-language AI for transcription, translation, and summarization across <strong>22 Indian languages</strong>. Sarvam Saaras v3 · OpenRouter · Sarvam Bulbul TTS. Lotus-inspired dark UI.</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://cerno.nemukai.com">Cerno</a></h3>
@@ -43,7 +43,7 @@ CSE + ML, DTU '25 · IEEE-published (INCET 2025) · Amazon ML Challenge, AIR 15 
     <td width="50%" valign="top">
       <h3><a href="https://skytrail.priyanshnik.com">SkyTrail</a></h3>
       <p><img src="https://img.shields.io/badge/live-1F869A?style=flat-square&labelColor=141210" alt="live"/></p>
-      <p>Interactive 3D globe of personal flight history — airline-colored great-circle arcs on a wireframe earth, thickness by route frequency. Next.js · Three.js.</p>
+      <p>Interactive 3D globe of personal flight history: airline-colored great-circle arcs on a wireframe earth, thickness by route frequency. Next.js · Three.js.</p>
     </td>
     <td width="50%" valign="top">
       <h3>Kairos</h3>
