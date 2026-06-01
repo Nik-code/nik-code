@@ -8,13 +8,19 @@
 
 # Hi, I'm $\color{#D17B2E}{\textsf{Nik}}$
 
+<p>
+  <img src="https://img.shields.io/badge/AI%20product%20studio-Nemukai-1F869A?style=flat-square&labelColor=141210" alt="Nemukai"/>
+  <img src="https://img.shields.io/badge/Airline%20ops%20%26%20optimization-IndiGo-D17B2E?style=flat-square&labelColor=141210" alt="IndiGo"/>
+  <img src="https://img.shields.io/badge/IEEE-published-35764A?style=flat-square&labelColor=141210" alt="IEEE published"/>
+</p>
+
 </div>
 
 <br/>
 
-I build small AI products under [**Nemukai**](https://nemukai.com) — a solo studio. By day, I work on crew networks at IndiGo Airlines.
+I build small AI products under [**Nemukai**](https://nemukai.com) — a solo studio for calm, character-rich tools. By day, I build planning, optimization, and analytics systems at IndiGo Airlines.
 
-CSE + ML, DTU '25 · IEEE-published · Amazon ML Challenge, AIR 15 / 75K+.
+CSE + ML, DTU '25 · IEEE-published (INCET 2025) · Amazon ML Challenge, AIR 15 / 75K+.
 
 <br/>
 
@@ -25,24 +31,24 @@ CSE + ML, DTU '25 · IEEE-published · Amazon ML Challenge, AIR 15 / 75K+.
     <td width="50%" valign="top">
       <h3><a href="https://koe.nemukai.com">Koe</a></h3>
       <p><img src="https://img.shields.io/badge/live-1F869A?style=flat-square&labelColor=141210" alt="live"/></p>
-      <p>Voice-first Indic language AI. Transcription, translation, summarization. Sarvam Saaras V3 · OpenRouter · ElevenLabs TTS. Lotus-inspired dark UI.</p>
+      <p>Voice-first Indic-language AI — transcription, translation, and summarization across <strong>22 Indian languages</strong>. Sarvam Saaras v3 · OpenRouter · Sarvam Bulbul TTS. Lotus-inspired dark UI.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Kairos</h3>
-      <p><img src="https://img.shields.io/badge/building-D17B2E?style=flat-square&labelColor=141210" alt="building"/></p>
-      <p>F1-grade karting telemetry on an Apple Watch Ultra. L1+L5 GPS and CoreMotion on the wrist, racing-line replay and braking zones on iPhone. SwiftUI · WatchKit · Swift Charts.</p>
+      <h3><a href="https://cerno.nemukai.com">Cerno</a></h3>
+      <p><img src="https://img.shields.io/badge/live-1F869A?style=flat-square&labelColor=141210" alt="live"/> <img src="https://img.shields.io/badge/private%20beta-35764A?style=flat-square&labelColor=141210" alt="private beta"/></p>
+      <p>Spreadsheet intelligence. Drop messy Excel in, get an approved data map, dashboards, and chat-driven analysis. FastAPI · Polars · Postgres.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Skytrail</h3>
-      <p><img src="https://img.shields.io/badge/commercializing-35764A?style=flat-square&labelColor=141210" alt="commercializing"/></p>
-      <p>Interactive 3D globe of personal flight history. Airline-colored great-circle arcs on a wireframe earth, thickness by route frequency. Next.js · Three.js.</p>
+      <h3><a href="https://skytrail.priyanshnik.com">SkyTrail</a></h3>
+      <p><img src="https://img.shields.io/badge/live-1F869A?style=flat-square&labelColor=141210" alt="live"/></p>
+      <p>Interactive 3D globe of personal flight history — airline-colored great-circle arcs on a wireframe earth, thickness by route frequency. Next.js · Three.js.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Cerno</h3>
+      <h3>Kairos</h3>
       <p><img src="https://img.shields.io/badge/building-D17B2E?style=flat-square&labelColor=141210" alt="building"/></p>
-      <p>Calm desktop app that turns messy spreadsheets into conversational data. Drop Excel in, ask questions in plain language. Pywebview · FastAPI · Polars.</p>
+      <p>F1-grade karting telemetry on an Apple Watch Ultra. L1+L5 GPS and CoreMotion on the wrist; racing-line replay and braking zones on iPhone. SwiftUI · WatchKit · Swift Charts.</p>
     </td>
   </tr>
 </table>
@@ -57,13 +63,12 @@ CSE + ML, DTU '25 · IEEE-published · Amazon ML Challenge, AIR 15 / 75K+.
 
 ## Toolkit
 
-**Languages.** Python · TypeScript · Swift · SQL · R · Bash
-**AI / ML.** PyTorch · TensorFlow · LangChain · LlamaIndex · Polars
-**Web.** Next.js · React · Tailwind · Three.js · FastAPI · Supabase
-**Native.** SwiftUI · WatchKit · Swift Charts · CoreLocation · CoreMotion
-**Cloud & data.** GCP · AWS · Snowflake · MongoDB · vector databases · Power BI
+**Languages.** Python · TypeScript · Swift · SQL · Bash
+**AI / ML.** PyTorch · LangChain · RAG · vector search · Polars
+**Web.** Next.js · React · Tailwind · Three.js · FastAPI · Postgres
+**Native.** SwiftUI · WatchKit · Swift Charts · CoreMotion
+**Infra.** Docker · Dokploy · Cloudflare · Tailscale · self-hosted VPS
 **Aviation.** Jeppesen (JCP/JCR) · RAVE · SABRE
-**Infrastructure.** Git · Docker · Vercel · Cloud Run · Tailscale · self-hosted VPS
 
 <br/>
 
@@ -71,16 +76,16 @@ CSE + ML, DTU '25 · IEEE-published · Amazon ML Challenge, AIR 15 / 75K+.
 
 <div align="center">
 
-<a href="https://github.com/Nik-code">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Nik-code&show_icons=true&hide_border=true&bg_color=141210&title_color=1F869A&icon_color=D17B2E&text_color=B0A695&ring_color=1F869A&count_private=true" alt="GitHub Stats"/>
-</a>
-<a href="https://github.com/Nik-code">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nik-code&layout=compact&hide_border=true&bg_color=141210&title_color=1F869A&text_color=B0A695" alt="Top Languages"/>
-</a>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Nik-code&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=141210&title_color=1F869A&icon_color=D17B2E&text_color=B0A695&ring_color=1F869A" alt="GitHub stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nik-code&layout=compact&langs_count=8&hide_border=true&bg_color=141210&title_color=1F869A&text_color=B0A695" alt="Top languages"/>
+
+<br/>
+
+<img height="165" src="https://streak-stats.demolab.com?user=Nik-code&hide_border=true&background=141210&stroke=07242E&ring=1F869A&fire=D17B2E&currStreakLabel=1F869A&sideLabels=B0A695&currStreakNum=B0A695&sideNums=B0A695&dates=4A4036" alt="Contribution streak"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nik-code&hide_border=true&bg_color=141210&color=1F869A&line=1F869A&point=D17B2E&area=true&area_color=07242E" alt="Activity Graph" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nik-code&hide_border=true&bg_color=141210&color=1F869A&line=1F869A&point=D17B2E&area=true&area_color=07242E" alt="Activity graph" width="98%"/>
 
 </div>
 
