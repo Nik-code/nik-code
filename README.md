@@ -63,12 +63,14 @@ CSE + ML, DTU '25 · IEEE-published (INCET 2025) · Amazon ML Challenge, AIR 15 
 
 ## Toolkit
 
-**Languages.** Python · TypeScript · Swift · SQL · Bash
-**AI / ML.** PyTorch · LangChain · RAG · vector search · Polars
-**Web.** Next.js · React · Tailwind · Three.js · FastAPI · Postgres
-**Native.** SwiftUI · WatchKit · Swift Charts · CoreMotion
-**Infra.** Docker · Dokploy · Cloudflare · Tailscale · self-hosted VPS
-**Aviation.** Jeppesen (JCP/JCR) · RAVE · SABRE
+<table>
+  <tr><td><b>Languages</b></td><td>Python · TypeScript · Swift · SQL · Bash</td></tr>
+  <tr><td><b>AI / ML</b></td><td>PyTorch · LangChain · RAG · vector search · Polars</td></tr>
+  <tr><td><b>Web</b></td><td>Next.js · React · Tailwind · Three.js · FastAPI · Postgres</td></tr>
+  <tr><td><b>Native</b></td><td>SwiftUI · WatchKit · Swift Charts · CoreMotion</td></tr>
+  <tr><td><b>Infra</b></td><td>Docker · Dokploy · Cloudflare · Tailscale · self-hosted VPS</td></tr>
+  <tr><td><b>Aviation</b></td><td>Jeppesen (JCP/JCR) · RAVE · SABRE</td></tr>
+</table>
 
 <br/>
 
@@ -76,12 +78,7 @@ CSE + ML, DTU '25 · IEEE-published (INCET 2025) · Amazon ML Challenge, AIR 15 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Nik-code&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=141210&title_color=1F869A&icon_color=D17B2E&text_color=B0A695&ring_color=1F869A" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nik-code&layout=compact&langs_count=8&hide_border=true&bg_color=141210&title_color=1F869A&text_color=B0A695" alt="Top languages"/>
-
-<br/>
-
-<img height="165" src="https://streak-stats.demolab.com?user=Nik-code&hide_border=true&background=141210&stroke=07242E&ring=1F869A&fire=D17B2E&currStreakLabel=1F869A&sideLabels=B0A695&currStreakNum=B0A695&sideNums=B0A695&dates=4A4036" alt="Contribution streak"/>
+<img height="180" src="https://streak-stats.demolab.com?user=Nik-code&hide_border=true&background=141210&stroke=07242E&ring=1F869A&fire=D17B2E&currStreakLabel=1F869A&sideLabels=B0A695&currStreakNum=B0A695&sideNums=B0A695&dates=4A4036" alt="GitHub contribution totals and streak"/>
 
 <br/><br/>
 
