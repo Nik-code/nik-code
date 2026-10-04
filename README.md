@@ -20,7 +20,7 @@
 
 I build small AI products under [**Nemukai**](https://nemukai.com), a solo studio for calm, character-rich tools. By day, I build planning, optimization, and analytics systems at IndiGo Airlines.
 
-CSE + ML, DTU '25 · IEEE-published (INCET 2025) · Amazon ML Challenge, AIR 15 / 75K+.
+CSE + ML, DTU '25 · IEEE-published (INCET 2025).
 
 <br/>
 
