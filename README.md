@@ -6,7 +6,7 @@
   <img src="./assets/nemukai-mark-kai500.svg" width="64" alt="Nemukai mark"/>
 </picture>
 
-# Hi, I'm $\color{#D17B2E}{\textsf{Nik}}$
+# Hi, I'm Nik
 
 <sub>Building calm, useful software under <a href="https://nemukai.com"><b>Nemukai</b></a> · Crew planning and optimization at <b>IndiGo</b></sub>
 
