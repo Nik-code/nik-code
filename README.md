@@ -64,6 +64,7 @@ CSE + ML at DTU, class of '25.
 
 | Project | What it does |
 |---|---|
+| [nagi](https://github.com/Nik-code/nagi) | A calm layer for Chrome: new tab, spaces side panel, command bar and two themes. [Chrome Web Store](https://chromewebstore.google.com/detail/nagi/nilnmgcdkmgimidmlficfdjloecjkdhl) |
 | [obsidian-nemukai](https://github.com/Nik-code/obsidian-nemukai) | Warm, layered Obsidian CSS snippets: movie dashboard, wishlist gallery, custom callouts |
 | [roadgraph-svg](https://github.com/Nik-code/roadgraph-svg) | Clean, scriptable SVG road maps from a coordinate and radius, using OpenStreetMap data |
 | [memoryweave](https://github.com/Nik-code/memoryweave) | Turns exported AI chats into searchable memories, structured notes and local embeddings |
