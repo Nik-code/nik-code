@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/nemukai-mark-kai500.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/nemukai-mark-ink900.svg">
-  <img src="./assets/nemukai-mark-kai500.svg" width="64" alt="Nemukai mark"/>
-</picture>
+<img src="./assets/nemukai-mark.svg" width="64" alt="Nemukai mark"/>
 
 # Hi, I'm Nik
 
